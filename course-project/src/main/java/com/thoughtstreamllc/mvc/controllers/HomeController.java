@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class HomeController {
 
-	@RequestMapping("/home")
+	@RequestMapping("/")
 	public String goHome(){
 		//logical view name, represent one of the views
 		return "home";
